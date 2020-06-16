@@ -15,7 +15,8 @@ settings_prod.py
 secret_properties.py
 howto_OAuth_vk
 
-media/
+media/post_pics/
+media/profile_pics/
 
 
 # If you are using PyCharm #
