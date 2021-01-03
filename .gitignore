@@ -17,7 +17,8 @@ howto_OAuth_vk
 
 media/post_pics/
 media/profile_pics/
-
+config/media/post_pics/
+config/media/profile_pics/
 
 # If you are using PyCharm #
 .idea/*
