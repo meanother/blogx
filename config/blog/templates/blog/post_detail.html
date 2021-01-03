@@ -15,9 +15,11 @@
                 {% endif %}
             </div>
             <h2 class="article-title">{{ object.title }}</h2>
-            <div class="card mb-3">
-                <img class="card-img-top" src="{{ object.header_image.url }}">
-            </div>
+            {% if object.header_image.url != "/media/default.jpeg" %}
+                <div class="card mb-3">
+                    <img class="card-img-top" src="{{ object.header_image.url }}">
+                </div>
+            {% endif %}
             <p class="article-content">{{ object.content }}</p>
 
         </div>
